@@ -1,0 +1,32 @@
+body {
+	margin: 0px;
+	background: #b39f9f;
+}
+
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 0;
+	margin: 10px;
+}
+
+img {
+	width: 350px;
+	height: 250px;
+	margin: 1%;
+	transition: 1s all;
+}
+
+img:hover {
+	transform: scale(1.2);
+}
+
+h1 {
+	border-bottom: 3px solid #3d2321;
+	border-right: 3px solid #3d2321;
+	text-align: center;
+	width: 400px;
+	box-shadow: 0.1vh 0.1vw #3d2321;
+}
